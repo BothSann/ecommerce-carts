@@ -1,7 +1,7 @@
 /*===================================
     GLOBAL CSS START
 ===================================*/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap");
 
 * {
     margin: 0;
@@ -19,11 +19,11 @@ li {
 a {
     display: inline-block;
     text-decoration: none;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
 a:hover {
@@ -60,11 +60,11 @@ img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
 input,
@@ -73,7 +73,7 @@ textarea {
     padding: 12px 20px;
     outline: none;
     resize: none;
-    border: 1px solid #E4E7E9;
+    border: 1px solid #e4e7e9;
     border-radius: 3px;
     font-size: 16px;
     font-weight: 400;
@@ -86,19 +86,19 @@ textarea::placeholder {
 
 button {
     border: none;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
 :root {
-    --colorPrimary: #5556E4;
-    --colorYellow: #D5D52B;
-    --colorGold: #C19052;
+    --colorPrimary: #5556e4;
+    --colorYellow: #d5d52b;
+    --colorGold: #c19052;
     --lightBg: rgb(241 241 255);
-    --ratingColor: #FFA121;
+    --ratingColor: #ffa121;
     --paraColor: #525258;
     --colorBlack: #040618;
     --colorWhite: #ffffff;
@@ -200,11 +200,11 @@ button {
 .read_btn i {
     margin-left: 10px;
     font-size: 12px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
 .read_btn:hover i {
@@ -304,11 +304,11 @@ button {
     -moz-border-radius: 0 !important;
     -ms-border-radius: 0 !important;
     -o-border-radius: 0 !important;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
     border: none;
 }
 
@@ -324,7 +324,6 @@ button {
 /*===================================
     GLOBAL CSS END
 ===================================*/
-
 
 /*===================================
     MENU START
@@ -518,7 +517,8 @@ button {
     width: 18px;
     height: auto;
     margin-right: 10px;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(69%) saturate(305%) hue-rotate(185deg) brightness(117%) contrast(108%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(69%) saturate(305%)
+        hue-rotate(185deg) brightness(117%) contrast(108%);
 }
 
 .wsus__product_item .img .add_cart:hover {
@@ -693,7 +693,6 @@ button {
     PRODUCT PAGE END
 ===================================*/
 
-
 /*===================================
     FOOTER START
 ===================================*/
@@ -736,7 +735,6 @@ footer .footer_text ul li a:hover {
 /*===================================
     FOOTER END
 ===================================*/
-
 
 /*===================================
     PRODUCT DETAILS START
@@ -828,13 +826,20 @@ footer .footer_text ul li a:hover {
     margin-top: 5px;
 }
 
-.wsus__product_summary .select2-container--default .select2-selection--single .select2-selection__rendered {
+.wsus__product_summary
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
     color: var(--colorBlack);
     line-height: 45px;
     padding-left: 20px;
 }
 
-.wsus__product_summary .select2-container--default .select2-selection--single .select2-selection__arrow b {
+.wsus__product_summary
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
     margin-left: -15px;
     margin-top: 14px;
 }
@@ -921,7 +926,8 @@ footer .footer_text ul li a:hover {
 .wsus__buy_cart_button .cart img {
     width: 25px !important;
     height: 25px !important;
-    filter: brightness(0) saturate(100%) invert(85%) sepia(100%) saturate(0%) hue-rotate(26deg) brightness(104%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(85%) sepia(100%) saturate(0%)
+        hue-rotate(26deg) brightness(104%) contrast(101%);
 }
 
 .wsus__buy_cart_button .common_btn {
@@ -1057,7 +1063,6 @@ footer .footer_text ul li a:hover {
     PRODUCT DETAILS  END
 ===================================*/
 
-
 /*===================================
     CART  START
 ===================================*/
@@ -1133,7 +1138,7 @@ footer .footer_text ul li a:hover {
 
 .wsus__cart_list .quentity_btn {
     width: 154px;
-    border: 2px solid #EFF0F3;
+    border: 2px solid #eff0f3;
 }
 
 .wsus__cart_list .quentity_btn input {
@@ -1164,13 +1169,13 @@ footer .footer_text ul li a:hover {
     font-weight: 400;
     color: var(--paraColor);
     border: none;
-    transition: all linear .3s;
+    transition: all linear 0.3s;
     width: 35px;
     height: 50px;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -1178,7 +1183,7 @@ footer .footer_text ul li a:hover {
 }
 
 .wsus__cart_list .quentity_btn .btn-danger {
-    border-right: 2px solid #EFF0F3;
+    border-right: 2px solid #eff0f3;
 }
 
 .wsus__cart_list .quentity_btn .btn-danger:hover {
@@ -1187,7 +1192,7 @@ footer .footer_text ul li a:hover {
 }
 
 .wsus__cart_list .quentity_btn .btn-success {
-    border-left: 2px solid #EFF0F3;
+    border-left: 2px solid #eff0f3;
 }
 
 .wsus__cart_list .quentity_btn .btn-success:hover {
@@ -1198,11 +1203,11 @@ footer .footer_text ul li a:hover {
 .wsus__cart_list table tbody tr td.pro_icon a {
     font-size: 20px;
     color: var(--colorBlack);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
 }
 
 .wsus__cart_list table tbody tr td.pro_icon a:hover {
