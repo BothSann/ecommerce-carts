@@ -12,4 +12,10 @@ class ProductPageController extends Controller
         $products = Product::all();
         return view("pages.home",compact("products"));
     }
+
+    public function details(){
+        $product = Product::find(2);
+        return view("pages.details", compact("product"));   
+    }
+
 }
